@@ -6,7 +6,7 @@ object AlphabetCount extends App {
 
   private def characterCount(string: String) = {
     val list = string.replace(" ", "").toLowerCase.toList
-
+println(list)
     list.map {
       char =>
         val count = list.count(_ == char)
